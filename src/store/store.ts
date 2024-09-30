@@ -7,7 +7,7 @@ const persistConfig = {
   key: 'redux-react-ts',
   version: 1,
   storage,
-  whitelist: ['products', 'counter'],
+  whitelist: ['products', 'counter', 'login'],
 };
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);
