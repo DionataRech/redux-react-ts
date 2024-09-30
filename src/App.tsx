@@ -20,7 +20,7 @@ function App() {
               <ConfirmationModalProvider>
                 <DefaultTheme>
                   <AppRoutes />
-                  <GlobalStyled />
+                  {/* <GlobalStyled /> */}
                 </DefaultTheme>
               </ConfirmationModalProvider>
             </TitleProvider>

@@ -8,6 +8,7 @@ import Test from '../pages/Test';
 import ReduxTest from '../pages/ReduxTest';
 import AddProduct from '../pages/AddProduct';
 import ListProducts from '../pages/ListProducts';
+import SignUp from '../pages/SignUp';
 
 const router = createBrowserRouter([
   {
@@ -43,6 +44,10 @@ const router = createBrowserRouter([
   {
     path: '/products/create',
     element: <AddProduct />,
+  },
+  {
+    path: '/signup',
+    element: <SignUp />,
   },
 ]);
 
